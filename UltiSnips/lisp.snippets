@@ -1,0 +1,68 @@
+snippet defp
+(defparameter ${1:var} ${2:x})${3}
+endsnippet
+
+
+
+snippet defv
+(defvar ${1:var} ${2:x})${3}
+endsnippet
+
+
+snippet defun
+(defun ${1:fun} (${2:x})
+	${3:body})
+endsnippet
+
+
+snippet defm
+(defmethod ${1:name} (${2:x})
+	${3})
+endsnippet
+
+
+snippet let
+(let ((${1:var} ${2:x})${3})
+	${4:body})
+endsnippet
+
+
+snippet flet
+(flet ((${1} (${2})
+	${3})${4})
+		${5})
+endsnippet
+
+
+snippet labels
+(labels ((${1} (${2})
+		${3})${4})
+		${5})
+endsnippet
+
+
+snippet when
+(when ${1}
+	${2})
+endsnippet
+
+
+snippet unless
+(unless ${1}
+	${2})
+endsnippet
+
+
+snippet cond
+(cond (${1} ${2})
+			${3})
+endsnippet
+
+
+snippet case
+(case ${1:x}
+	(${2:cond} ${3})
+		${4:body})
+endsnippet
+
+

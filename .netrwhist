@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/willian/Documents/dominion_datamining/src'
+let g:netrw_dirhist_2='/home/willian/Documents'
+let g:netrw_dirhist_3='/home/willian/Documents/dominion/src/main/java/universite/bordeaux'
+let g:netrw_dirhist_4='/home/willian/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg'
